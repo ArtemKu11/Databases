@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: postgres_for_big_file
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "db_for_big_file"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5433:5432"
