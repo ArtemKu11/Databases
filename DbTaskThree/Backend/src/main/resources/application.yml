@@ -1,0 +1,9 @@
+custom-properties:
+  database:
+    url: jdbc:mysql://localhost:3306/kuchumov_database
+    username: docker_user
+    password: root
+spring:
+  thymeleaf:
+    cache: false
+    prefix: file:src/main/resources/templates/

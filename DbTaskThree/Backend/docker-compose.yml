@@ -1,0 +1,11 @@
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: kuchumov_database
+      MYSQL_USER: docker_user
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'

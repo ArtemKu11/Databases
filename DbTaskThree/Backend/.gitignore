@@ -31,9 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-hs_err_pid6621.log
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-big_file.md
-.mvn
